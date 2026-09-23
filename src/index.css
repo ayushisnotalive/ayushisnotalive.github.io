@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap');
 
 :root {
-  /* Dark Premium Red Theme */
-  --bg-color: #050000;
-  --bg-color-alt: #0a0101;
-  --text-primary: #ffffff;
-  --text-secondary: #ffbaba;
+  /* Vintage Film / Barcelona Theme */
+  --bg-color: #0c0a09; /* Very dark warm gray/brown */
+  --bg-color-alt: #171210;
+  --text-primary: #fdfbf7;
+  --text-secondary: #d6cfc7;
   
-  --primary-red: #ff2a2a;
-  --primary-red-glow: rgba(255, 42, 42, 0.4);
-  --dark-red: #8b0000;
+  --primary-red: #d12e3e; /* Warm desaturated red matching the light leaks and jersey */
+  --primary-red-glow: rgba(209, 46, 62, 0.4);
+  --primary-blue: #183e7a; /* Muted Barca blue */
+  --primary-blue-glow: rgba(24, 62, 122, 0.4);
+  --primary-yellow: #e6b840; /* Warm vintage yellow */
   
-  --border-color: rgba(255, 42, 42, 0.15);
-  --glass-bg: rgba(15, 0, 0, 0.6);
+  --dark-red: #7a1520;
+  
+  --border-color: rgba(209, 46, 62, 0.2);
+  --glass-bg: rgba(25, 18, 15, 0.65);
 }
 
 * {

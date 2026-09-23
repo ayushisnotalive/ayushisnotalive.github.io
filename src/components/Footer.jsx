@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -20,11 +20,25 @@ const Footer = () => {
             <span className="text-red">.</span>
           </div>
           
+          <div className="footer-contact-info">
+            <a href="mailto:theayushchakraborty@gmail.com" className="contact-text">
+              <FaEnvelope /> theayushchakraborty@gmail.com
+            </a>
+            <a href="tel:+919147088780" className="contact-text">
+              <FaPhone /> +91 9147088780
+            </a>
+          </div>
+          
           <div className="footer-socials">
             <a href="https://github.com/ayushisnotalive" target="_blank" rel="noreferrer" className="social-link">
               <FaGithub size={20} />
             </a>
-            {/* Add other socials if needed */}
+            <a href="https://www.linkedin.com/in/ayushzdevs" target="_blank" rel="noreferrer" className="social-link">
+              <FaLinkedin size={20} />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="social-link">
+              <FaInstagram size={20} />
+            </a>
           </div>
           
           <div className="footer-bottom">

@@ -1,0 +1,88 @@
+.about-section {
+  padding: 100px 20px 60px;
+  position: relative;
+  z-index: 5;
+}
+
+.about-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.about-text {
+  background: var(--bg-color-alt);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.terminal-header {
+  background: #110e0c;
+  padding: 14px 20px;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.terminal-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.terminal-dot.red { background: #ff5f56; }
+.terminal-dot.yellow { background: #ffbd2e; }
+.terminal-dot.green { background: #27c93f; }
+
+.terminal-body {
+  padding: 40px;
+}
+
+.terminal-prompt {
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.prompt-dir {
+  color: #3b82f6; /* Bright blue for terminal */
+  font-weight: 600;
+}
+
+.prompt-arrow {
+  color: var(--primary-yellow);
+}
+
+.prompt-cmd {
+  color: var(--text-primary);
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: var(--primary-red);
+  letter-spacing: -0.5px;
+}
+
+.about-description {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .terminal-body {
+    padding: 24px;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-description {
+    font-size: 1.1rem;
+  }
+}

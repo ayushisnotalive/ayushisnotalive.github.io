@@ -1,0 +1,46 @@
+.skills-section {
+  padding: 100px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill-badge {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--glass-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-badge:hover {
+  border-color: var(--primary-red);
+  color: var(--text-primary);
+  box-shadow: 0 0 15px var(--primary-red-glow);
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    gap: 12px;
+  }
+
+  .skill-badge {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}

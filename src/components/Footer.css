@@ -17,6 +17,27 @@
   margin-bottom: 24px;
 }
 
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-text:hover {
+  color: var(--primary-red);
+}
+
 .footer-socials {
   display: flex;
   gap: 20px;
